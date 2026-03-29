@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<extension>
+    <name>CD Rip Status</name>
+    <module>Plugins::CDRipStatus::Plugin</module>
+    <version>0.8</version>
+    <defaultState>enabled</defaultState>
+    <description>Plugin pour afficher le status de la copie d'un CD en cours</description>
+    <category>misc</category>
+    <creator>Glujaz</creator>
+    <email></email>
+    <icon>plugins/CDRipStatus/html/images/icon.png</icon>
+    <type>2</type>
+    <targetApplication>
+        <id>SlimServer</id>
+        <minVersion>8.5</minVersion>
+        <maxVersion>*</maxVersion>
+    </targetApplication>
+</extension>

@@ -1,0 +1,13 @@
+[Unit]
+Description=CD insertion watcher
+
+[Service]
+User=__USER__
+Group=nogroup
+ExecStart=__SCRIPT_PATH__ --watch
+Restart=always
+RestartSec=2
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+[Install]
+WantedBy=multi-user.target

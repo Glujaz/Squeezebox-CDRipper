@@ -62,7 +62,7 @@ while true; do
 
             if ! pgrep -f "$SCRIPT_DIR/autorip.sh --run" >/dev/null; then
                 #echo "starting $SCRIPT_DIR/autorip.sh --run"
-                bash -c "$SCRIPT_DIR/autorip.sh --run"
+                bash -c "$SCRIPT_DIR/autorip.sh --run" &
             fi
         fi
     else

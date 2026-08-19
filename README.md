@@ -9,6 +9,7 @@ Download the full content of the repository, and extract it in : /var/lib/squeez
 Modify the variables on top of the file /var/lib/squeezeboxserver/Plugins/CDRipStatus/bin/autorip.sh
 
 This is the list of variables to check:
+
 DRIVE="/dev/sr0" (maybe to modify)
 CDROM_ID="/usr/lib/udev/cdrom_id" (maybe to modify)
 MUSIC_DIR="/home/lyrionmusicserver/music" (set your music folder writable by Lyrion Server)
